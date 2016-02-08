@@ -1,0 +1,20 @@
+<h1 class="text-center">Answer</h1>
+<!-- GET answer/:query -->
+<div class="wrapper">
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="question_container">
+          <p class="question"><%= @question %></p>
+          <p class="question_asker">- You</p>
+        </div>
+        <div class="question_container">
+          <p class="question"><%= @answer %></p>
+          <p class="question_asker">- Your Coach</p>
+        </div>
+        <%= link_to "Ask a new question", "/ask" %>
+      </div>
+    </div>
+  </div>
+</div>
+
